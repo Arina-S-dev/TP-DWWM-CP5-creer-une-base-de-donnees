@@ -1,5 +1,5 @@
-LISTE: codeListe, nom, position
+LISTE: nom, position
 contient, 0N LISTE, 11 CARTE
-CARTE: codeCarte, description, position, couleur
+CARTE: description, position, couleur
 possède, 0N CARTE, 0N LABEL
-LABEL: codeLabel, nom, couleur
+LABEL: nom, couleur
