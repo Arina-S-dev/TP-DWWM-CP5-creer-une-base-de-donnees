@@ -1,0 +1,4 @@
+list (id INTEGER, name TEXT, position INTEGER, created_at TIMESTAMPTZ, updated_at TIMESTAMPTZ )
+card (id INTEGER, description TEXT, position INTEGER, color TEXT, #list(id), created_at TIMESTAMPTZ, updated_at TIMESTAMPTZ)
+label (id INTEGER, name TEXT, color TEXT, created_at TIMESTAMPTZ, updated_at TIMESTAMPTZ)
+card_has_label (#card(id) INTEGER, #label(id) INTEGER, created_at TIMESTAMPTZ)
